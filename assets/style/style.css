@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: 'Nunito Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --main-font-color:#F95E5E;
+    --main-dark: #272727;
+}
+
+.main-color{
+    color: var(--main-font-color);
+}
+
+.judul{
+   
+    font-size: 30px;
+}
+
+h1{
+    font-size: 70px;
+}
+
+h2{
+    font-size: 48px;
+}
+
+h3{
+    font-size: 36px;
+}
+
+p{
+    font-size: 20px;
+}
+
+/* .hero-heading {
+    line-height: 1;
+    letter-spacing: -.05rem;
+} */
+
+.hero{
+    margin-top: 100px;
+}
+
+.explore-btn {
+    border-radius: 50px;
+    background-color: var(--main-font-color);
+    border: none;
+    height: 40px;
+    width: 155px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.news{
+    margin-top: 118px;
+}
+
+.form{
+    background-color: var(--main-font-color);
+}
+
+.garis_verikal{
+    border-left: 1px black solid;
+    height: 170px;
+    width: 0px;
+    }
+
+.btn-loc{
+    border-radius: 50px;
+    background-color: var(--main-font-color);
+}
+
+@media (max-width: 800px) {
+    .kotak{
+        font-size: 10px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    .title{
+        font-size: 20px;
+    }
+    .explore-btn{
+        font-size: 10px;
+        width: 100px;
+        height: 30px;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+
+    h3{
+        font-size: 18px;
+    }
+
+    P{
+        font-size: 14px;
+    }
+
+    .news{
+        margin-top: 0;
+    }
+}
+
+
+
