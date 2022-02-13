@@ -10,6 +10,7 @@ html{
 
 :root{
     --main-font-color:#F95E5E;
+    --secondary-font-color: #44E154;
     --main-dark: #272727;
 }
 
@@ -38,14 +39,10 @@ p{
     font-size: 20px;
 }
 
-/* .hero-heading {
-    line-height: 1;
-    letter-spacing: -.05rem;
-} */
 
-.hero{
-    margin-top: 100px;
-}
+/* .hero{
+    margin-top: 50px;
+} */
 
 .explore-btn {
     border-radius: 50px;
@@ -65,6 +62,7 @@ p{
 
 .form{
     background-color: var(--main-font-color);
+    margin-top: 50px;
 }
 
 .garis_verikal{
@@ -77,6 +75,15 @@ p{
     border-radius: 50px;
     background-color: var(--main-font-color);
 }
+
+.positive{
+    color: var(--main-font-color);
+}
+
+.recovered{
+    color: var(--secondary-font-color);
+}
+
 
 @media (max-width: 800px) {
     .kotak{
