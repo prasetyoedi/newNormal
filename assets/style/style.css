@@ -19,16 +19,15 @@ html{
 }
 
 .judul{
-   
     font-size: 30px;
 }
 
 h1{
-    font-size: 70px;
+    font-size: 76px;
 }
 
 h2{
-    font-size: 48px;
+    font-size: 40px;
 }
 
 h3{
@@ -36,15 +35,20 @@ h3{
 }
 
 p{
-    font-size: 20px;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.hero{
+    margin-top: 75px;
+    /* margin-bottom: 100px; */
 }
 
 
-/* .hero{
-    margin-top: 50px;
-} */
-
-.explore-btn {
+.more-btn {
     border-radius: 50px;
     background-color: var(--main-font-color);
     border: none;
@@ -54,15 +58,17 @@ p{
     text-align: center;
     font-size: 16px;
     font-weight: 600;
+    margin-top: 50px;
 }
 
 .news{
-    margin-top: 118px;
+    margin-top: 125px;
+    margin-bottom: 50px;
 }
 
 .form{
     background-color: var(--main-font-color);
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 .garis_verikal{
@@ -84,23 +90,37 @@ p{
     color: var(--secondary-font-color);
 }
 
+.img-logo{
+    width: 150px;
+    height: 150px;
+}
 
+.img-logo-header{
+    width: 60px;
+    height: 60px;
+}
 @media (max-width: 800px) {
+    .img-logo-header{
+        width: 40px;
+        height: 40px;
+    }
+    
     .kotak{
         font-size: 9px;
-    }
-
-    h1{
-        font-size: 40px;
     }
 
     .title{
         font-size: 20px;
     }
-    .explore-btn{
+    .more-btn{
         font-size: 10px;
         width: 100px;
         height: 30px;
+        margin-top: -25px;
+    }
+
+    h1{
+        font-size: 36px;
     }
 
     h2{
@@ -111,14 +131,25 @@ p{
         font-size: 18px;
     }
 
-    P{
+    p{
         font-size: 14px;
     }
 
     .news{
-        margin-top: 0;
+        margin-top: 35px;
+    }
+    
+    .hero{
+        margin-top: 0%;
+    }
+    .img-logo{
+        text-align: center;
     }
 }
 
 
-
+@media (max-width: 500px){
+    footer .container{
+        margin-left: 90px;
+    }
+}
