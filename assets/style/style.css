@@ -77,7 +77,8 @@ a{
     width: 0px;
     }
 
-.btn-loc{
+
+.btn-color{
     border-radius: 50px;
     background-color: var(--main-font-color);
 }
@@ -145,11 +146,14 @@ a{
     .img-logo{
         text-align: center;
     }
+    .my-alert{
+        font-size: 12px;
+    }
 }
 
 
 @media (max-width: 500px){
     footer .container{
-        margin-left: 80px;
+        margin-left: 75px;
     }
 }
